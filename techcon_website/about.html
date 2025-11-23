@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About TechCon 2024</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Optional favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header with navigation (same as homepage) -->
+  <header>
+    <div class="container header-inner">
+      <h1>About TechCon 2024</h1>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- History article -->
+    <article id="history">
+  <h2>History of TechCon</h2>
+  <p>
+    TechCon began as a small meet-up in 2010 for local developers...
+  </p>
+
+  <!-- historical images with alt attributes -->
+  <figure>
+    <img src="images/history-2010.jpg" alt="TechCon 2010 — small workshop with attendees taking notes">
+    <figcaption>TechCon's first workshop (2010).</figcaption>
+  </figure>
+
+  <p>
+    Over the years we've expanded our program...
+  </p>
+</article>
+
+
+    <!-- Mission article -->
+    <article id="mission">
+  <h2>Our Mission</h2>
+  <p>
+        TechCon's mission is to democratize access to learning, foster meaningful collaboration, and highlight
+        technologies that positively impact society. We believe inclusive events accelerate innovation and
+        strengthen communities.
+      </p>
+
+      <!-- motivational icon/image -->
+      <figure>
+  <img src="images/mission-icon.png" alt="TechCon Mission Icon">
+  <figcaption>TechCon inspires innovation, learning, and collaboration in technology.</figcaption>
+</figure>
+
+
+      <!-- optional embedded media (promo video) -->
+      <section class="promo-video">
+        <h3>Watch Our Highlights</h3>
+        <p>Highlights from past TechCon events:</p>
+        <!-- Replace the src URL with your YouTube video ID -->
+        <iframe width="560" height="315" <iframe width="560" height="315" src="https://www.youtube.com/embed/BuEchI_fmXY?si=imO3tTRDIRAyIk1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </section>
+    </article>
+
+    <!-- Past Speakers article -->
+    <article id="past-speakers">
+      <h2>Notable Past Speakers</h2>
+      <p>TechCon has hosted leaders and innovators from across the technology landscape. Below are a few highlights.</p>
+
+      <!-- Speaker entry 1 -->
+      <section class="speaker">
+        <figure>
+          <img src="images/speakers/alex-doe.jpg" alt="Alex Doe — AI researcher and keynote speaker">
+          <figcaption>Alex Doe — AI Researcher</figcaption>
+        </figure>
+        <div class="speaker-bio">
+          <h3>Alex Doe</h3>
+          <p>Alex is an AI researcher focused on machine learning fairness. At TechCon 2019 Alex delivered a keynote
+            on ethical AI and practical steps teams can take to reduce bias in models.</p>
+        </div>
+      </section>
+
+      <!-- Speaker entry 2 -->
+      <section class="speaker">
+        <figure>
+          <img src="images/speakers/sam-lee.jpg" alt="Sam Lee — founder and CTO">
+          <figcaption>Sam Lee — Startup Founder</figcaption>
+        </figure>
+        <div class="speaker-bio">
+          <h3>Sam Lee</h3>
+          <p>Sam is a founder and CTO who spoke about scaling engineering teams at TechCon 2021, sharing frameworks for
+            hiring, remote collaboration, and scaling product architecture.</p>
+        </div>
+      </section>
+
+      <!-- Speaker entry 3 (add as many as needed) -->
+      <section class="speaker">
+        <figure>
+          <img src="images/speakers/dr-maria.jpg" alt="Dr. Maria Gomez — researcher in human-computer interaction">
+          <figcaption>Dr. Maria Gomez — HCI Researcher</figcaption>
+        </figure>
+        <div class="speaker-bio">
+          <h3>Dr. Maria Gomez</h3>
+          <p>Dr. Gomez presented research on inclusive product design at TechCon 2022, highlighting methods to
+             involve underrepresented users during product development.</p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Footer (consistent with homepage) -->
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2024</span> TechCon. All rights reserved.</p>
+      <p>Designed by the TechCon team. <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
